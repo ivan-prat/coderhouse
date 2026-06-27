@@ -1,0 +1,29 @@
+/* ASI SE HACE UN COMENTARIO */
+
+/* ETIQUETAS */
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color:rgb(71, 40, 5)
+}
+p {
+    width: 50%;
+}
+head {
+    background-color: rgb(158, 42, 7);
+    color:cadetblue
+}
+body {
+    background-color: #f1e5c4;
+}
+
+/* RUTA DE ESPECIFICIDAD */
+
+/*header nav ul {
+
+}
+*/ 
+
+/* De esa manera accedemos a una determinada ubicacion para poder cambiar el etilo. Por ejemplo cambiar un h1 determinado dentro de todo el codigo */
+
