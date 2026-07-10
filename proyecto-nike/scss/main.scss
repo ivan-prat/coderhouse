@@ -63,3 +63,7 @@ button {
 .productos {
     grid-template-columns: repeat(3, 1fr);
 }
+header h1, header p {
+    font-family: 'Oswald', sans-serif !important;
+}
+@use "productos";

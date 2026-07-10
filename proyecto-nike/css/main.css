@@ -1,0 +1,84 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(243, 243, 243);
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  margin-top: 0.5rem;
+}
+
+.productos {
+  display: flex;
+  gap: 200px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  background-color: #b60303;
+  margin-top: 10rem;
+}
+
+footer li a {
+  color: rgb(0, 0, 0);
+}
+
+footer h3 {
+  color: rgb(0, 0, 0);
+}
+
+footer ul li {
+  color: rgb(0, 0, 0);
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-redes {
+  text-align: left;
+}
+
+.productos {
+  margin-top: 5rem;
+  display: flex;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+button {
+  color: #ff0000;
+}
+
+.productos {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+header h1, header p {
+  font-family: "Oswald", sans-serif !important;
+}
+
+/*# sourceMappingURL=main.css.map */
