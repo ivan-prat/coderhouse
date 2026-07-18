@@ -1,3 +1,4 @@
+@use "productos";
 h1 {
     text-align: center;
     font-size: 60px;
@@ -66,4 +67,16 @@ button {
 header h1, header p {
     font-family: 'Oswald', sans-serif !important;
 }
-@use "productos";
+header nav .navbar-nav a.nav-link {
+    display: inline-block; 
+    transition: transform 0.3s ease;
+}
+header nav .navbar-nav a.nav-link:hover {
+    display: inline-block;
+    transform: rotate(10deg);
+}
+footer h3:hover {
+    display: inline-block;
+    transform: rotate(5deg);
+}
+
