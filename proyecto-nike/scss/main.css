@@ -32,8 +32,9 @@ footer {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  background-color: #b60303;
+  background-color: #a39e9e;
   margin-top: 10rem;
+  padding: 1rem 2rem;
 }
 
 footer li a {
@@ -55,6 +56,7 @@ footer ul {
 
 .footer-redes {
   text-align: left;
+  gap: 2px;
 }
 
 .productos {
@@ -88,10 +90,15 @@ header nav .navbar-nav a.nav-link {
 
 header nav .navbar-nav a.nav-link:hover {
   display: inline-block;
-  transform: rotate(10deg);
+  transform: scale(1.05);
 }
 
-footer h3:hover {
+footer ul li a:hover {
   display: inline-block;
-  transform: rotate(5deg);
+  transform: scale(1.05);
+}
+
+main section button:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
 }/*# sourceMappingURL=main.css.map */
