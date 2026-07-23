@@ -11,16 +11,93 @@
 </head>
 <body>
     <header>
-        
+        <div class="marca-container"> 
+            <img src="imagenes/justdoit.png" alt="Logo Nike">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNike" aria-controls="menuNike" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menuNike">
+                        <div class="navbar-nav">
+                            <a class="nav-link text-white" href="login.html">Iniciar Sesion</a>
+                            <a class="nav-link text-white" href="registrarse.html">Registrarse</a>
+                            <a class="nav-link text-white" href="productos.html">Productos</a>
+                            <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
+                            <a class="nav-link text white d-flex align-items-center" href="#">
+                                <i class="bi bi-cart3 fs-4 position-relative">
+                                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style="font-size: 0.6rem;">1</span>
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </nav>
     </header>
 
     <main class="container my-5">
-        <h1 class="text-center mb-4">Sobre Nosotros</h1>
-        <p class="text-center">Acá va la historia de tu tienda, la visión y la pasión por las zapatillas.</p>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-5">
+                    <h2>Crear cuenta</h2>
+                    <form action="#" method="post">
+                        <div class="mb-3">
+                        <label for="nombre"  class="form-label">Nombre y Apellido</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Juan Perez" required>
+                        </div>
+                        <div class="mb-3">
+                        <label for="email"  class="form-label">Correo electronico</label>
+                        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                        </div>
+                        <div class="mb-3">
+                        <label for="password"  class="form-label">contraseña</label>
+                        <input type="password" class="form-control" id="password" placeholder="Laplata1235#" required>
+                        </div>
+                        <div class="mb-3">
+                        <label for="confirm-password"  class="form-label">Confirmar contraseña</label>
+                        <input type="password" class="form-control" id="confirm-password" placeholder="Laplata1235#" required>
+                        </div>
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" type="checkbox" id="terminos" required>
+                            <label class="form-check-label" for="terminos">
+                                Acepto las <a href="#" class="text-primary text-decoration-none">bases y condiciones</a>
+                            </label>
+                        </div>
+                    </form>
+                    <button type="submit" class="btn btn-dark w-100">Registrarme</button>
+                </div>
+            </div>
     </main>
 
     <footer>
-        
+        <div class="footer-redes">
+            <h3>Redes Sociales</h3>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Tiktok</a></li>
+            </ul>
+        </div>
+        <div class="footer-asistencia">
+            <h3>Contacto</h3>
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Soporte</a></li>
+                <li><a href="#">Quiero Ser Parte de Nike</a></li>
+            </ul>
+        </div>
+        <div class="footer-marca">
+            <h3>Sobre la Marca</h3>
+            <ul>
+                <li><a href="#">Nuestra Historia</a></li>
+                <li><a href="#">Nuestros Inicios</a></li>
+                <li><a href="#">Tienda Original</a></li>
+            </ul>
+        </div>
+        <div class="bg-secondary text-black">
+            <p>Llevamos tu pasión por las zapatillas a otro nivel. Envíos a todo el país y atención personalizada. © 2026 [Nombre de tu Tienda] — Tu próximo par está acá.</p>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
